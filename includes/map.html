@@ -1,0 +1,24 @@
+	<script type="text/javascript">
+	ymaps.ready(init);
+	var myMap,
+		myPlacemark;
+
+	function init(){     
+		myMap = new ymaps.Map("map", {
+			center: [51.15926663, 54.96241303],
+			zoom: 17,
+			controls: ['zoomControl']
+		});
+
+		myPlacemark = new ymaps.Placemark([51.15926663, 54.96241303], { 
+			hintContent: 'Стоматология', 
+			balloonContent: 'г. Соль-Илецк, ул. Монтажников, 16а. Тел.: 8 35336 2-66-77, 8 922 874-61-64' 
+		});
+
+		myMap.geoObjects.add(myPlacemark);
+
+	}
+	</script>
+
+	<div id="map"></div>
+	<div id="mapOverlay"></div>
