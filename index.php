@@ -20,81 +20,61 @@
 	</div>
 
 	<!-- ГЛАВНОЕ МЕНЮ -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/main-menu.html'); ?>
+	<div id="mainMenu">
+		<span>О клинике</span>
+		<a href="/price-terapia">Услуги и цены</a>
+		<a href="/contacts">Контакты</a>
+		<div class="clean"></div>
+	</div>
 
 	<!-- РАЗДЕЛИТЕЛЬ -->
 	<div class="roundLineSeparator"></div>
 
 	<!-- УСУГИ -->
-	<div class="zag">Услуги клиники</div>
+	<h1>Услуги клиники</h1>
 
-	<div class="gridTwo">
-		<div class="uslugiMain">
-			<span>Консультация</span>
-			Служба Яндекс.Рефераты для студентов и школьников, ди-зайнеров и журналистов, созда-телей научных заявок и отчетов.
-		</div>
-		<div class="uslugiMain">
-			<span>Диагностика</span>
-			Служба Яндекс.Рефераты для студентов и школьников, ди-зайнеров и журналистов, созда-телей научных заявок и отчетов.
-		</div>
-		<div class="uslugiMain">
-			<span>Пломбирование</span>
-			Служба Яндекс.Рефераты для студентов и школьников, ди-зайнеров и журналистов, созда-телей научных заявок и отчетов.
-		</div>
-
-		<div class="uslugiMain">
-			<span>Лечение</span>
-			Служба Яндекс.Рефераты для студентов и школьников, ди-зайнеров и журналистов, созда-телей научных заявок и отчетов.
-		</div>
-		<div class="uslugiMain">
-			<span>Протезирование</span>
-			Служба Яндекс.Рефераты для студентов и школьников, ди-зайнеров и журналистов, созда-телей научных заявок и отчетов.
-		</div>
-		<div class="uslugiMain">
-			<span>Реставрация</span>
-			Служба Яндекс.Рефераты для студентов и школьников, ди-зайнеров и журналистов, созда-телей научных заявок и отчетов.
-		</div>
-		<div class="uslugiMain">
-			<span>Шлифовка</span>
-			Служба Яндекс.Рефераты для студентов и школьников, ди-зайнеров и журналистов, созда-телей научных заявок и отчетов.
-		</div>
-		<div class="uslugiMain">
-			<span>Гигиена</span>
-			Служба Яндекс.Рефераты для студентов и школьников, ди-зайнеров и журналистов, созда-телей научных заявок и отчетов.
-		</div>
+	<div id="uslugiMain">
+		<div>Консультация</div>
+		<div>Диагностика</div>
+		<div>Пломбирование</div>
+		<div>Лечение</div>
+		<div>Протезирование</div>
+		<div>Реставрация</div>
+		<div>Шлифовка</div>
+		<div>Гигиена</div>
 	</div>
 	<div class="clean"></div>
 
-	<a href="/price-terapia" id="showPriceButton">Все услуги и цены</a>
+	<a href="/price-terapia" id="showPriceButton">Все услуги</a>
 
 	<!-- БЕЛЫЙ ЗАБОР -->
 	<div class="zaborWhite"></div>
 
 	<!-- О КЛИНИКЕ -->
 	<div id="aboutUsMain">
-		<div class="zagWhite" style="padding: 60px 0 40px 0;">О клинике</div>
+		<h1>О клинике</h1>
 		<div class="gridTwo">
 
 			<div class="aboutUsPhoto">
-				<a class="fancybox" rel="group" href="images/aboutUsImage_1.jpg">
+				<a data-fancybox="images" href="images/aboutUsImage_1.jpg">
 					<div class="aboutUsPhotoOverlay"></div>
 					<img class="round" src="images/aboutUsImage_1_t.jpg" alt="Современная клиника" />
 				</a>
 			</div>
 			<div class="aboutUsPhoto">
-				<a class="fancybox" rel="group" href="images/aboutUsImage_2.jpg">
+				<a data-fancybox="images" href="images/aboutUsImage_2.jpg">
 					<div class="aboutUsPhotoOverlay"></div>
 					<img class="round" src="images/aboutUsImage_2_t.jpg" alt="Современная клиника" />
 				</a>
 			</div>
 			<div class="aboutUsPhoto">
-				<a class="fancybox" rel="group" href="images/aboutUsImage_3.jpg">
+				<a data-fancybox="images" href="images/aboutUsImage_3.jpg">
 					<div class="aboutUsPhotoOverlay"></div>
 					<img class="round" src="images/aboutUsImage_3_t.jpg" alt="Современная клиника" />
 				</a>
 			</div>
 			<div class="aboutUsPhoto">
-				<a class="fancybox" rel="group" href="images/aboutUsImage_4.jpg">
+				<a data-fancybox="images" href="images/aboutUsImage_4.jpg">
 					<div class="aboutUsPhotoOverlay"></div>
 					<img class="round" src="images/aboutUsImage_4_t.jpg" alt="Современная клиника" />
 				</a>
@@ -103,12 +83,12 @@
 			<div class="clean"></div>
 
 			<div class="aboutUsText">
-				В ряде недавних экспериментов кондуктометрия адсорбирует мембранный белок. Восстановитель, если рассматривать процессы в рамках специальной теории относительности, ингибирует пептидный закон. Везикула, как того требуют закон Гесса, абразивна. закон закон закон Везикула
+				
 			</div>
 
 			<div class="roundLineSeparatorWhiteShort"></div>
 
-			<div class="zagWhite">Наши врачи</div>
+			<h1>Наши врачи</h1>
 
 			<div style="width: 735px; margin: 0 auto 0 auto;">
 				<div class="doctorMain">
@@ -139,28 +119,18 @@
 
 	<!-- КОНТАКТЫ -->
 	<div class="contactsMain" id="cont">
-		<div class="zag" style="padding: 60px 0 0 0;">Контакты</div>
+		<h1>Контакты</h1>
 		<div id="contactsTextBig">
 			г. Соль-Илецк, ул. Монтажников, 16а<br>8 (35336) 2-66-77, 8 922 874-61-64
 		</div>
 		<div id="contactsTextSmall">С понедельника по пятницу с 9:00 до 18:00</div>
 	</div>
 
-	<!-- БЕЛЫЙ ЗАБОР -->
-	<div class="zaborWhite"></div>
-
 	<!-- КАРТА -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/map.html'); ?>
 
 	<!-- ФУТЕР -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.html'); ?>
-
-	<!-- ВЫЗОВ ФЭНСИБОКСА -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$(".fancybox").fancybox();
-		});
-	</script>
 
 </body>
 </html>
