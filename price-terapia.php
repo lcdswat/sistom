@@ -6,6 +6,8 @@
 	</head>
 <body>
 
+	<div id="preloader"></div>
+
 	<!-- ШАПКА -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header-main.html'); ?>
 
@@ -127,5 +129,14 @@
 
 	<!-- ФУТЕР -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.html'); ?>
+
+	<!-- Прелоадер -->
+	<script type="text/javascript">
+		$(window).on('load', function () {
+			setTimeout(function(){
+				$('#preloader').fadeOut('slow');
+			},1000);
+		});
+	</script>
 
 </body>

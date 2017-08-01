@@ -1,0 +1,32 @@
+@media screen and (max-width: 990px) {
+	.promoText {display: none;}
+	#zub {width: 100%; background-position: center center;}
+	.contactsMain {background-image: none;}
+	.zaborWhite {background-image: none;}
+	.zaborWhiteUpDown {background-image: none;}
+	.headerContacts {display: none;}
+	#logo {float: none; margin: 0 auto 0 auto;}
+	#promoMain {background-image: none;}
+	#priceTable {
+		width: 100%;
+		padding: 0 20px 0 20px;
+		font-size: 18px;
+	}
+
+	#priceTable td {
+		padding: 15px 0 15px 0;
+	}
+
+	.priceCost {
+		width: 150px;
+	}
+
+	.priceCostNoLine {
+		width: 150px;
+	}
+
+	#priceTable th {
+		line-height: 24px;
+		font-size: 22px;
+	}
+}
