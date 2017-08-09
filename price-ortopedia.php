@@ -17,7 +17,7 @@
 	<!-- ГЛАВНОЕ МЕНЮ -->
 	<div id="mainMenu">
 		<a href="/">О клинике</a>
-		<a href="/price-terapia">Услуги и цены</a>
+		<span>Услуги и цены</span>
 		<a href="/contacts">Контакты</a>
 		<div class="clean"></div>
 	</div>
